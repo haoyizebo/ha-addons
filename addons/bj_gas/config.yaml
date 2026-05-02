@@ -1,0 +1,23 @@
+name: 北京燃气
+version: "1.0.0"
+slug: bj_gas
+description: 北京燃气数据采集，自动同步至 Home Assistant
+url: https://github.com/haoyizebo/ha-addons
+arch:
+  - aarch64
+  - amd64
+  - armv7
+image: ghcr.io/haoyizebo/ha-addon-bj-gas-{arch}
+init: false
+startup: application
+boot: auto
+ingress: true
+ingress_port: 8788
+panel_icon: mdi:gas-cylinder
+panel_title: 北京燃气
+hassio_api: true
+hassio_role: default
+homeassistant_api: true
+auth_api: true
+options: {}
+schema: {}
