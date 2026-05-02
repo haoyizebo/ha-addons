@@ -1,5 +1,5 @@
 name: 北京燃气
-version: "1.0.0"
+version: "1.0.1"
 slug: bj_gas
 description: 北京燃气数据采集，自动同步至 Home Assistant
 url: https://github.com/haoyizebo/ha-addons
